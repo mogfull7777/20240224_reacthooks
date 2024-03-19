@@ -1,8 +1,10 @@
 import React, { useId } from "react";
 
+// 이 페이지는 console말고 elements를 보자!
+
 function UseIdHook() {
-  //   const id = useId();
-  //   console.log(id);
+  // const id = useId();
+  // console.log(id);
 
   return (
     // <div>
@@ -26,6 +28,7 @@ function UseIdHook() {
 
 function MyInput() {
   const id = useId();
+  console.log("Myinput 아이디들", id);
 
   return (
     <div>
@@ -39,6 +42,7 @@ function MyInput() {
 
 function InputProfile() {
   const profileId = useId();
+  console.log("InputProfile 아이디들", profileId);
 
   return (
     <div>

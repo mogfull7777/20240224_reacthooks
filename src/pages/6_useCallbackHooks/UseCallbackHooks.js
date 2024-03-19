@@ -27,7 +27,7 @@ function UseCallbackHooks() {
         onChange={(e) => setNumber(e.target.value)}
       />
       <br />
-      <button onClick={someFunction}>Call someFunc</button>
+      <button onClick={someFunction}>Call someFunction</button>
       <br />
       <br />
       <button onClick={() => setToggle(!toggle)}>{toggle.toString()}</button>
